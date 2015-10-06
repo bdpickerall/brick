@@ -9,8 +9,8 @@ class InteractionReceived extends Command
 {
     /**
      * Create a new command instance.
+     * @param $email
      *
-     * @return void
      */
     public function __construct($email)
     {
