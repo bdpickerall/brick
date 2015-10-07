@@ -2,15 +2,15 @@
 
 namespace App\Handlers\Commands;
 
-use ;
+use App\Commands\InteractionReceived;
 use Illuminate\Queue\InteractsWithQueue;
 
-class InteractionReceived
+class InteractionReceivedHandler
 {
     /**
      * Create the command handler.
      *
-     * @return void
+     *
      */
     public function __construct()
     {
@@ -23,7 +23,7 @@ class InteractionReceived
      * @param    $command
      * @return void
      */
-    public function handle( $command)
+    public function handle( InteractionReceived $command )
     {
         //
     }
